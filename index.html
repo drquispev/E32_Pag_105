@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Variables aleatorias</title>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Comic+Neue:ital,wght@0,300;0,400;1,300&family=Russo+One&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="FONDO" id="FONDO">
+        <div class="Contenedor_Formulario">
+            <h2>EJERCICIO 32 </h2>
+            <div class="Input_Data">
+                <label for="Data">Data : </label>
+                <input type="text" id="Data">
+            </div>
+
+            <div class="Data_View">
+                <button type="button" class="Boton_Ver_Data" id="Boton_Ver_Data">Mostrar datos</button>
+            </div>
+
+            <!-- <form class="Formulario">    -->
+                <div class="Contenedor_Tabla_View" id="Contenedor_Tabla_Form">
+                    <table class="Tabla_View", id="Tabla_View">
+                        <tbody class="Cuerpo_Tabla" id="Cuerpo_Tabla"></tbody>
+                    </table>
+                </div>
+            <!-- </form> -->
+            <div class="Contenedor_Boton">
+                <button type="button" class="Boton_Calcular" id="Boton_Calcular">Calcular</button>
+            </div>
+        </div>
+    </div>
+</body>
+  
+<script type="module" src="E32.js"></script>
+<script type="module" src="Tabla_Poisson.js"></script>
+</html>
